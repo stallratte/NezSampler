@@ -18,6 +18,13 @@
       <None Update="Content\scene2.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+        <None Update="Content\scene2.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <!-- Copy all nez effects and textures -->
+        <None Update="Content\nez\effects\*;Content\nez\effects\transitions\*;Content\nez\textures\*;Content\nez\textures\textureWipeTransition\*">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
     <ItemGroup>
