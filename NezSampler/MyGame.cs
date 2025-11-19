@@ -14,7 +14,8 @@ public class MyGame : Core {
 	protected override void Update(GameTime gameTime) {
 		base.Update(gameTime);
 
-		if (Keyboard.GetState().IsKeyDown(Keys.Space)) {
+		
+		if (Input.IsKeyPressed(Keys.Space)) {
 			if (Scene is Scene1) {
 				Scene = new Scene2();
 			}
