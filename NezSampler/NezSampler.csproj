@@ -12,25 +12,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\DistortedCore\FNA\FNA.Core.csproj" />
-        <ProjectReference Include="..\..\DistortedCore\Nez\Nez.Portable\Nez.FNA.Core.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Update="Content\fnalibs\x64\*">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-            <TargetPath>%(Filename)%(Extension)</TargetPath>
-        </None>
-      <Folder Include="Content\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Update="Content\scene1.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="Content\scene2.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\DistortedCore\Nez\Nez.Portable\Nez.MG38.csproj" />
     </ItemGroup>
 
 </Project>
