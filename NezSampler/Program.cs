@@ -8,7 +8,7 @@ public class Program {
 		// SDL_GPU (Vulkan, Metal, D3D12)
 		// D3D11
 		// OpenGL
-		Environment.SetEnvironmentVariable("FNA3D_FORCE_DRIVER", "D3D11");
+		Environment.SetEnvironmentVariable("FNA3D_FORCE_DRIVER", "D3D12");
 		
 		using (MyGame g = new MyGame())
 		{
