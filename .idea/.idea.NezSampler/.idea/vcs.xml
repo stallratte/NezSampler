@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/FAudio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/FNA3D" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/FNA3D/MojoShader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/SDL2-CS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/SDL3-CS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/FNA/lib/Theorafile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DistortedCore/Nez" vcs="Git" />
+  </component>
+</project>
