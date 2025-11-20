@@ -18,6 +18,7 @@ public class MyGame : Core {
 		Scene nextScene = null;
 		
 		if (Input.IsKeyPressed(Keys.Space)) {
+			Console.WriteLine($"{Screen.Width} x {Screen.Height}");
 			if (Scene is Scene1) {
 				nextScene = new Scene2(); }
 			else {
@@ -25,10 +26,13 @@ public class MyGame : Core {
 			}
 
 		}
-		
 		if (nextScene != null) {
 			nextScene.AddPostProcessor(new BloomPostProcessor(0));
 			Scene = nextScene;
+		}
+
+		if (Input.IsKeyPressed(Keys.Q)) {
+			Nez.Core.Exit();
 		}
 		
 	}
